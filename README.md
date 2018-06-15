@@ -20,3 +20,9 @@ Convolution operation between grayscale image and vertical edge filter
 
 ## Step 4
 Convolution operation between grayscale image and horizontal edge filter
+
+## Step 5
+Combining the two imagges to create the final output
+
+
+![output](https://user-images.githubusercontent.com/37869371/41485667-1dd4f77a-70ff-11e8-978c-a4e3b53a347d.png)
