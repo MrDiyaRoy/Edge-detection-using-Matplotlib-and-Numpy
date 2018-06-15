@@ -12,8 +12,8 @@ def vert_edge(w,h,big_matrix):
         column=(w-size_of_square_matrix)+1                  #It is the number of columns it will cover to find out the desired output.
         max_val=0
         result = []
-        r = (h-3)+1                                         #row value of horizontal edge filter
-        c = (w-3)+1                                         #column value of horizontal edge filter
+        r = (h-3)+1                                         #no. of rows in the output vector
+        c = (w-3)+1                                         #no. of colunms in the output vector
 
         for i in range(row):
             for j in range(column):
@@ -23,7 +23,7 @@ def vert_edge(w,h,big_matrix):
                     for l in range(3):
                         sum += (sq[k,l] * vef[k,l])
                 result.append(sum)
-        result_matrix = np.asarray(result).reshape(r,c)     #reshaping the resultant matrix
+        result_matrix = np.asarray(result).reshape(r,c)     #reshaping the output matrix
         return result_matrix
 
     except Exception as e:
