@@ -4,8 +4,16 @@ Edge detection of an image without using any machine learning library
 ## Step 1
 Reading a 3 channel image
 
+
+![lena](https://user-images.githubusercontent.com/37869371/41485568-ba67c924-70fe-11e8-8d35-89ab7b25f803.png)
+
+
 ## Step 2
 Converting the color image into grayscale image
+
+
+![grayscale](https://user-images.githubusercontent.com/37869371/41485437-25471c3c-70fe-11e8-82d7-5f241c517373.png)
+
 
 ## Step 3
 Convolution operation between grayscale image and vertical edge filter
